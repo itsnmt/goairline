@@ -2,7 +2,35 @@
 
 .logo {width: 10%; float: left;}
 
+:required {
+	background: red;
+  }
+.form-control{
+    font-size: 16px !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    background: transparent !important;
+    box-shadow: none !important;
 
+}
+
+.booking{
+    padding: 50px 35px 30px;
+}
+.booking form label{
+    margin-bottom: 5px !important;
+    margin-top: 10px !important;
+    font-size: 12px !important;
+    color: #fff !important;
+}
+input::placeholder{
+    color: #fff !important;
+
+}
+.input-grp{
+    width: 150px;
+    display: inline-block;
+}
 .form-control{
     font-size: 12px !important;
     border-radius: 0 !important;
@@ -11,8 +39,29 @@
     box-shadow: none !important;
 
 }
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+.select-date::-webkit-calender-picker-indicator
+{
+    background: transparent !important;
+}
+.custom-select{
+    color: #fff !important;
+    font-size: 12px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+
 body{
-    background-image: url(./img/hero-bg.png);
+    background-image: url(./public/hero-bg.png);
     background-size: cover;
     background-position: center;
 }
