@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+  <title>Let's Go Airlines</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $(function(){
+    $("#datepicker").datepicker({
+        dateFormat: "yy-mm-dd"
+    });
+  });
+</script>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+      
+					<div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+				
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Go to Home</a></li>
+   
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1> Let's Go Airlines </h1>       
+        </div>
+        
+    </div>
+  </section>
+
+  <div id="container1">
+    <div id="Container1_body">
+      <div class="body">
+      <div class="departureDate">
+        Departing Tuesday, July 9
+      </div>
+      <div class="row">
+        <div class="departure">
+          Seattle (SEA)
+        </div>
+        <div class="arrival">San Francisco (SFO)</div>
+      </div>
+      <div class="row">
+        <div class="departureTime">1:45 PM</div>
+        <div class="right">&#8594;</div>
+        <div class="arrivalTime">3:58 PM</div>
+      </div>
+      <div class="row">
+        <div class="airwyas">Alaska Airlines</div>
+        <div class="time">nonstop 8h 21m</div>
+      </div>
+      </div>     
+  </div>
+
+
+
+  <!-- End Hero Section  -->
+
+  
+  
+
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

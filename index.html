@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+  <title>Let's Go Airlines</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/public/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="/public/style.css">
+  <link href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="Stylesheet"
+  type="text/css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script language="javascript">
+  $(document).ready(function () {
+      $("#txtdate").datepicker({
+          minDate: 0
+      });
+  });
+</script>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+      
+					<div class="logo"><a href="index.html"><img src="/public/logo.png"></a></div>
+				
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#overviews" data-after="overview">overview</a></li>
+            <li><a href="#vision" data-after="vision">vision</a></li>
+            <li><a href="#Values" data-after="Values">Values</a></li>
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1> Let's Go Airlines </h1>       
+        </div>
+        
+    </div>
+  </section>
+
+  <div id="search-form">
+    <div id="header h2">
+      <h1>   Search for flights:</h1>
+    </div>
+    <section>
+      <div class="flight" id="flightbox">
+        
+        <form id="flight-form">
+        
+        
+        <!-- FROM/TO -->
+        <div id="flight-depart">
+          <div class="info-box">
+            <label for="">ORIGIN CITY</label>
+            <input type="text" id="dep-from" required aria-required="true"/>
+            <div id="depart-res"></div>
+          </div>
+          <div class="info-box" id="arrive-box">
+            <label for="">DESTINATION CITY</label>
+            <input type="text" id="dep-to" required aria-required="true" />
+            <div id="arrive-res"></div>
+          </div>
+        </div>
+        
+        <!-- FROM/TO -->
+        <div id="flight-dates">
+          <div class="info-box">
+            <label for="">DATE OF JOURNEY </label>
+            
+            <input id="txtdate" type="text">
+          </div>
+          
+        </div>
+        
+        <!-- PASSENGER INFO -->
+        <div id="flight-info">
+          <div class="info-box">
+            <label for="adults">ADULTS</label>
+            <select name="adults" id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>              
+            </select>
+          </div>
+      </div>
+      <br>
+        <!-- SEARCH BUTTON -->
+      <div id="flight-search">
+        <div class="info-box">
+          <input type="submit" id="search-flight" value="SEARCH FLIGHTS"/>
+        </div>
+      </div>
+        
+      </form> 
+      </div>
+    </section>
+  
+         
+</div>
+<div id="confirm"></div>
+
+
+  <!-- End Hero Section  -->
+
+  <!-- overview Section -->
+  <section id="overviews">
+    <div class="overviews container">
+      <div class="overview-top">
+        <h1 class="section-title"><span>Overview</span></h1>
+        <p>Let’s Go Airlines is the project name for a new airline company that will focus on single
+          class long-haul scheduled flights. Let’s Go Airlines will capitalise on the widening gap in
+          long-haul travel between business and economy class. Let’s Go Airlines will operate
+          Boeing 757-200 aircraft configured with 80 seats which will provide a very spacious and
+          pleasant environment. The aircraft will be equipped with the latest technology in order to
+          enable the business traveller to use his time efficiently while travelling. The company will
+          start by leasing two aircraft and expand its fleet to 6 aircraft by the second year of
+          operation.
+          Let’s Go will be a "business to business" airline and will focus exclusively on the
+          premium/business segment of the market. It will offer customers a compelling value
+          proposition: a high level of overview and comfort at 50 percent of the current published
+          business-class fare. In addition to an attractive price, Let’s Go will offer passengers
+          considerable time savings, convenience, and will focus on creating a lifestyle appeal.</p>
+        </div>    
+      </div>
+    </div>
+  </section>
+  <!-- End overview Section -->
+
+  <!-- Vision Section -->
+  <section id="vision">
+    <div class="overviews container">
+      <div class="overview-top">
+        <h1 class="section-title"><span>Vision</span></h1>
+        <br>
+        <br>
+        <p>Let's Go aims to establish itself as a niche player in the long-haul market of business
+          travel. By continuously focusing on the needs of the premium class business traveller,
+          Let’s Go will provide the best value proposition in the markets it serves.</p>
+        </div>    
+      </div>
+    </div>
+  </section>
+  <!-- End Vision Section -->
+
+  <!-- Values Section -->
+  <section id="Values">
+    <div class="contact container">
+      <div class="contact-items">
+        <h1 class="section-title"><span>Values</span></h1>
+        <p>We exist to provide a valuable service to our customers, a rewarding opportunity for our
+employees, and profitability to our shareholders. We believe that success in this
+endeavor depends on our employees. Satisfied employees lead to satisfied customers,
+which lead to satisfied shareholders. To achieve this, we enable our employees to act
+with an entrepreneurial spirit, and we value those willing to take responsibility for their
+actions and the consequences of those actions. We treat employees as family, which
+fosters intimacy, informality, strong relationships, caring attitudes, and it makes work
+more fun. We want our customers to experience legendary service that makes a lasting
+impression. Providing exceptional value to customers requires hard work and
+concentration. We believe in doing things right the first time. We take pride in our efforts
+as well as the rewards. Throughout this endeavor, safety will be the overriding force
+behind any decision.</p>
+        </div>    
+      </div>
+    </div>
+  </section>
+  <!-- End Vision Section -->
+
+  
+  
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title"><span>Contact Info</span></h1>
+      </div>
+       <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>info@letsgoairlines.com</h2>           
+          </div>        
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
